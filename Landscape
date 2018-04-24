@@ -1,0 +1,56 @@
+//https://www.rapidtables.com/ for colors 
+int x; //declare variable globally
+int xSpeed;
+
+
+void setup() {
+  
+  size(1000,600);
+  x = 30;
+  xSpeed = 60;
+  
+}
+
+void draw () {
+  background(#0A0900);
+  
+  //Ground
+  noStroke();
+  fill(#608038);
+  rect (0, height-100, width, 100);
+  
+  //Tree Trunk
+  noStroke();
+  fill(127,0,0);
+  rect(700,150,70,490);
+  
+  //Tree Bushes
+  noStroke();
+  fill(170,220,60);
+  ellipse(740,150,240,230);
+  
+  //Sun
+  noStroke();
+  fill(246,246,228);
+  ellipse(10,0,200,200);
+  
+  
+  //Meteor
+  x+= xSpeed;
+  
+  if (x>= 5000) {
+    xSpeed =-xSpeed;
+  } else if (x<-5000){
+    xSpeed = -xSpeed;
+  }
+  
+  noStroke();
+  fill(216,214,184);
+  ellipse(x,200,40,30);
+}
+
+
+
+
+
+  
