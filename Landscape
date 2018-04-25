@@ -47,10 +47,23 @@ void draw () {
   noStroke();
   fill(216,214,184);
   ellipse(x,200,40,30);
+
+  //Stars
+  noStroke();
+  fill(#FFFF66);
+  ellipse(600,200,20,20);
+  ellipse(400,150,20,20);
+  ellipse(240,187,20,20);
+  ellipse(157,220,20,20);
+  ellipse(50,150,20,20);
+  ellipse(300,270,20,20);
+  ellipse(120,90,20,20);
+  ellipse(500,130,20,20);
+  ellipse(370,60,20,20);
+  ellipse(200,20,20,20);
+  ellipse(213,46,20,20);
+  ellipse(345,310,20,20);
+  ellipse(312,123,20,20);
+  ellipse(213,111,20,20);
+
 }
-
-
-
-
-
-  
