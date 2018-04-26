@@ -50,20 +50,20 @@ void draw () {
 
   //Stars
   noStroke();
-  fill(#FFFF66);
-  ellipse(600,200,20,20);
-  ellipse(400,150,20,20);
-  ellipse(240,187,20,20);
-  ellipse(157,220,20,20);
-  ellipse(50,150,20,20);
-  ellipse(300,270,20,20);
-  ellipse(120,90,20,20);
-  ellipse(500,130,20,20);
-  ellipse(370,60,20,20);
-  ellipse(200,20,20,20);
-  ellipse(213,46,20,20);
-  ellipse(345,310,20,20);
-  ellipse(312,123,20,20);
-  ellipse(213,111,20,20);
+  fill(#FFFF00);
+  ellipse(600,200,10,10);
+  ellipse(400,150,10,10);
+  ellipse(240,187,10,10);
+  ellipse(157,220,10,10);
+  ellipse(50,150,10,10);
+  ellipse(300,270,10,10);
+  ellipse(120,90,10,10);
+  ellipse(500,130,10,10);
+  ellipse(370,60,10,10);
+  ellipse(200,20,10,10);
+  ellipse(213,46,10,10);
+  ellipse(345,310,10,10);
+  ellipse(312,123,10,10);
+  ellipse(213,111,10,10);
 
 }
